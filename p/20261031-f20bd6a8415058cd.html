@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WeChat Bridge Guide · 使用指南</title>
+<style>
+  :root { --bg:#f6f7f9; --card:#fff; --ink:#1d2330; --muted:#5b6475; --accent:#07c160; --line:#e3e6eb; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#14171c; --card:#1e232b; --ink:#e8ebf0; --muted:#9aa3b2; --line:#2c333d; } }
+  * { box-sizing:border-box; }
+  body { margin:0; padding:20px 16px 40px; background:var(--bg); color:var(--ink); font:16px/1.55 -apple-system,"PingFang SC","Helvetica Neue",sans-serif; }
+  main { max-width:640px; margin:0 auto; }
+  h1 { font-size:24px; margin:0 0 4px; } .sub { color:var(--muted); margin:0 0 20px; }
+  section { background:var(--card); border:1px solid var(--line); border-radius:12px; padding:14px 16px; margin-bottom:14px; }
+  h2 { font-size:17px; margin:0 0 8px; color:var(--accent); }
+  table { width:100%; border-collapse:collapse; font-size:15px; }
+  td { padding:6px 0; border-top:1px solid var(--line); vertical-align:top; } tr:first-child td { border-top:none; }
+  td:first-child { white-space:nowrap; padding-right:12px; font-family:ui-monospace,Menlo,monospace; font-size:14px; }
+  ul { margin:0; padding-left:20px; } .ok { color:var(--accent); font-weight:600; }
+  footer { color:var(--muted); font-size:13px; text-align:center; margin-top:20px; }
+</style>
+</head>
+<body><main>
+  <h1>🤖 WeChat Bridge Guide</h1>
+  <p class="sub">使用指南 · Opened right inside WeChat <span class="ok">✓</span></p>
+  <section><h2>How to ask · 怎么问</h2><ul>
+    <li>Direct chat: just send a message.</li>
+    <li>Group chat: @mention the account, then ask.</li>
+    <li>群里请先 @ 我，再提问。</li></ul></section>
+  <section><h2>Commands · 指令</h2><table>
+    <tr><td>/new</td><td>Start a fresh conversation · 重新开始对话</td></tr>
+    <tr><td>/remember …</td><td>Save a note for this chat · 记住一件事</td></tr>
+    <tr><td>/memory</td><td>Show saved notes · 查看记住的内容</td></tr>
+    <tr><td>/forget</td><td>Clear saved notes · 清除记忆</td></tr>
+    <tr><td>/model</td><td>Show which model this chat uses · 查看当前模型</td></tr></table></section>
+  <section><h2>Files & pages · 文件和网页</h2><ul>
+    <li>Ask for a web page: “make me a page with …”. It arrives as a link you tap to open.</li>
+    <li>要网页就说“做一个网页……”，点链接就能打开。</li>
+    <li>Files: txt, csv, md, svg, ics (calendar). Not yet: PDF, Word, photos.</li>
+    <li>Pages are public to anyone with the link. 网页任何拿到链接的人都能看。</li></ul></section>
+  <footer>Sent by the bridge · 2026-10-31</footer>
+</main></body></html>
